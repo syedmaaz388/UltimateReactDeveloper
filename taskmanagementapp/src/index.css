@@ -1,0 +1,52 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.App{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(119, 205, 255);
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 300px;
+  height: 50%;
+  background-color: white;
+}
+.form{
+  margin-top: 20px;
+}
+.box2{
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 70%;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+}
+.list{
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.lili{
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  background-color: rgb(255, 252, 252);
+}
+.completed {
+  text-decoration: line-through;
+}
